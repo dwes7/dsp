@@ -24,7 +24,7 @@ fig, ax = plt.subplots()
 x = np.arange(0, 2*CHUNK, 2)
 line,= ax.plot(x,np.random.rand(CHUNK))
 plt.show(block=False)
-ax.set_ylim(-255,255 )
+ax.set_ylim(-CHUNK,CHUNK )
 ax.set_xlim(0, CHUNK)
 while True:
     
